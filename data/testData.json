@@ -41,5 +41,15 @@
     "trackCount": 2,
     "blocksPerTrack": 5,
     "animationName": "scroll-left"
+  },
+  "slideshow": {
+    "slideCount": 3,
+    "ctaLabel": "View Collection",
+    "autoplay": false,
+    "slides": [
+      { "heading": "Because flawless is always in style", "href": "/collections/cleansers" },
+      { "heading": "Take a look into House of thrifts",    "href": "/collections/lip-cosmetics" },
+      { "heading": "Because elegance is always on trend.", "href": "/collections/face-masks" }
+    ]
   }
 }

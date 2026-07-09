@@ -20,6 +20,10 @@ const BASE_URL = process.env.STORE_URL ?? 'https://lollipop-theme.myshopify.com'
  */
 export default defineConfig({
   testDir: './tests',
+  // Clear stale ./allure-results before every run so the generated report
+  // reflects ONLY the specs that were just executed (the reporter appends
+  // results and never cleans them itself). Trend history is preserved.
+  globalSetup: './scripts/allure-global-setup.ts',
   fullyParallel: true,
   forbidOnly: !!process.env.CI,
   // The app under test is a live, externally-hosted Shopify preview store,
