@@ -1,0 +1,39 @@
+{
+  "homepage": {},
+  "header": {
+    "logoAlt": "Lollipop-theme",
+    "topLevelNav": [
+      { "label": "Home",        "href": "/" },
+      { "label": "Shop",        "href": "/collections", "hasMegaMenu": true },
+      { "label": "Inner Pages", "href": "/pages/our-story" },
+      { "label": "Journal",     "href": "/blogs/news" }
+    ],
+    "megaMenuTrigger": "Shop",
+    "search": {
+      "validTerm": "serum",
+      "noResultsTerm": "zzqwxytestnoresult123"
+    }
+  },
+  "footer": {
+    "logoAlt": "Lollipop-theme",
+    "menu": {
+      "heading": "Pages",
+      "links": [
+        { "label": "Shop",      "href": "/collections/all" },
+        { "label": "Our Story", "href": "/pages/our-story" },
+        { "label": "Journal",   "href": "/blogs/news" },
+        { "label": "Faq",       "href": "/pages/faq" },
+        { "label": "Contact",   "href": "/pages/contact" }
+      ]
+    },
+    "social": {
+      "heading": "Share with us",
+      "networks": ["Instagram", "Facebook", "TikTok", "Twitter", "Pinterest", "Tumblr", "Vimeo"]
+    },
+    "payments": ["Visa", "Mastercard", "American Express", "PayPal", "Diners Club", "Discover"],
+    "copyright": {
+      "storeName": "Lollipop-theme",
+      "poweredByHref": "shopify.com"
+    }
+  }
+}

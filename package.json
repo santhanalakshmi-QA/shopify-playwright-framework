@@ -1,0 +1,29 @@
+{
+  "name": "lollipop-shopify-home-tests",
+  "version": "1.0.0",
+  "description": "Playwright test suite for the Lollipop Shopify theme home page, generated from the requirement checklist.",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:desktop": "playwright test --project=desktop-chromium",
+    "test:mobile": "playwright test --project=mobile",
+    "test:slideshow": "playwright test tests/01-slideshow",
+    "test:featured-products": "playwright test tests/02-featured-products",
+    "report": "playwright show-report",
+    "test:allure": "node scripts/allure-report.mjs",
+    "allure:generate": "allure generate allure-results --clean -o allure-report",
+    "allure:open": "allure open --host localhost --port 8080 allure-report",
+    "allure:report": "allure generate allure-results --clean -o allure-report && allure open --host localhost --port 8080 allure-report",
+    "allure:serve": "allure serve --host localhost --port 8080 allure-results",
+    "allure:clean": "node scripts/allure-clean.mjs"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.12.1",
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^22.0.0",
+    "allure-commandline": "^2.32.0",
+    "allure-playwright": "^3.0.0",
+    "dotenv": "^17.4.2",
+    "typescript": "^5.5.0"
+  }
+}
