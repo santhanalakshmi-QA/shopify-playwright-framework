@@ -42,6 +42,51 @@
     "blocksPerTrack": 5,
     "animationName": "scroll-left"
   },
+  "featuredCollection": {
+    "heading": "Featured Collection",
+    "headingLevel": "h2",
+    "productsToShow": 7,
+    "autoplay": false,
+    "loop": true,
+    "spaceBetween": 55,
+    "cardAspectRatioClass": "ratio-1x1",
+    "hasArrows": false,
+    "hasDots": false,
+    "hasTabs": false,
+    "usesPlaceholderCards": true,
+    "placeholder": {
+      "title": "Product title",
+      "price": "€0,00"
+    },
+    "sliderOptions": {
+      "desktop": "4",
+      "laptop": "3",
+      "tablet": "3",
+      "medium_down": "2",
+      "mobile": "1",
+      "loop": "true",
+      "mode": "false",
+      "auto_play": "0",
+      "space": "55"
+    },
+    "breakpoints": {
+      "320": { "slidesPerView": 1, "spaceBetween": 27.5 },
+      "480": { "slidesPerView": 2, "spaceBetween": 38.5 },
+      "768": { "slidesPerView": 3, "spaceBetween": 38.5 },
+      "992": { "slidesPerView": 3, "spaceBetween": 44 },
+      "1400": { "slidesPerView": 4 }
+    },
+    "slidesPerViewByWidth": {
+      "375": 1,
+      "430": 1,
+      "479": 1,
+      "480": 2,
+      "768": 3,
+      "1024": 3,
+      "1440": 4,
+      "1920": 4
+    }
+  },
   "slideshow": {
     "slideCount": 3,
     "ctaLabel": "View Collection",
